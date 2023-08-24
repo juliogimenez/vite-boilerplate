@@ -1,27 +1,23 @@
 export default [
   {
     path: '/403',
-    name: 'Forbidden',
+    name: 'forbidden',
     component: () => import('@/modules/error/views/Forbidden.vue'),
     meta: {
-      title: '404 - Forbidden',
-      hidden: true,
-      permission: ['exception'],
+      title: '404 - Forbidden'
     },
   },
   {
     path: '/404',
-    name: 'NotFound',
+    name: 'notFound',
     component: () => import('@/modules/error/views/NotFoundView.vue'),
     meta: {
-      title: '404 - Page not found',
-      hidden: true,
-      permission: ['exception'],
+      title: '404 - Page not found'
     },
   },
   {
     path: '/:pathMatch(.*)*',
-    name: 'Error',
+    name: 'error',
     redirect: '404',
   },
 ]

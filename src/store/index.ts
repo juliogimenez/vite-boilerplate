@@ -3,8 +3,7 @@ import { createPinia } from 'pinia'
 
 const setupPinia = (app: ReturnType<typeof createApp>) => {
   const store = createPinia()
-  app.use(app)
-  return store
+  app.use(store)
 }
 
 export default setupPinia
