@@ -16,7 +16,6 @@ La estructura del proyecto está organizada de la siguiente manera:
 │   ├── modules/
 │   ├── router/
 │   ├── store/
-│   ├── styles/
 │   ├── types/
 │   ├── App.vue
 │   ├── main.ts
