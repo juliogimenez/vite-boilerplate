@@ -4,7 +4,7 @@ export default [
     name: 'forbidden',
     component: () => import('@/modules/error/views/Forbidden.vue'),
     meta: {
-      title: '404 - Forbidden'
+      title: '404 - Forbidden',
     },
   },
   {
@@ -12,7 +12,7 @@ export default [
     name: 'notFound',
     component: () => import('@/modules/error/views/NotFoundView.vue'),
     meta: {
-      title: '404 - Page not found'
+      title: '404 - Page not found',
     },
   },
   {
