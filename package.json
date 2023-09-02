@@ -1,5 +1,5 @@
 {
-  "name": "pogo-web",
+  "name": "vite-boilerplate",
   "engines": {
     "node": ">=18.0.0"
   },

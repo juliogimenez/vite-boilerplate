@@ -1,7 +1,6 @@
 import { fileURLToPath, URL } from 'node:url'
 import { defineConfig, loadEnv } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import legacy from '@vitejs/plugin-legacy'
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd())
   const { VITE_PUBLIC_PATH } = env
@@ -9,9 +8,6 @@ export default defineConfig(({ mode }) => {
     base: VITE_PUBLIC_PATH,
     plugins: [
       vue(),
-      legacy({
-        targets: ['defaults', 'not IE 11'],
-      }),
     ],
     resolve: {
       alias: {
