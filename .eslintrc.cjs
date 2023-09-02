@@ -22,6 +22,11 @@ module.exports = {
     },
   ],
   extends: ['plugin:vue/vue3-recommended', 'eslint:recommended', 'prettier'],
+  settings: {
+    'import/resolver': {
+      node: { extensions: ['.js', '.jsx', '.mjs', '.ts', '.tsx', '.d.ts'] },
+    },
+  },
   parserOptions: {
     ecmaVersion: '2020',
     sourceType: 'module',

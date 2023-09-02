@@ -5,10 +5,11 @@
   },
   "version": "0.0.0",
   "private": true,
+  "types": "module",
   "scripts": {
     "dev": "vite",
     "build": "pnpm run typecheck && vite build --mode production",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "lint": "eslint . --ext .vue,.js,.ts,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write .",
     "preview": "vite preview",
     "typecheck": "vue-tsc --noEmit"
