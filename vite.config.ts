@@ -6,9 +6,7 @@ export default defineConfig(({ mode }) => {
   const { VITE_PUBLIC_PATH } = env
   return {
     base: VITE_PUBLIC_PATH,
-    plugins: [
-      vue(),
-    ],
+    plugins: [vue()],
     resolve: {
       alias: {
         '~': fileURLToPath(new URL('./node_modules', import.meta.url)),

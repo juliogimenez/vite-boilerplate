@@ -1,13 +1,14 @@
 import { defineStore } from 'pinia'
-
-export type GlobalState = {
-  isLoading: boolean
-}
-
-export const useGlobalState = defineStore('globalState', {
-  state: () => {
+import type { StoreDefinition } from 'pinia'
+import type { GlobalState } from '@/types/store'
+export const useGlobalState: StoreDefinition = defineStore('globalState', {
+  state: (): GlobalState => {
     return {
       isLoading: false,
+      error: {
+        code: '',
+        message: '',
+      },
     }
   },
 })
