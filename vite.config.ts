@@ -6,14 +6,6 @@ export default defineConfig(({ mode }) => {
   const { VITE_PUBLIC_PATH } = env
   return {
     base: VITE_PUBLIC_PATH,
-    plugins: [vue()],
-    resolve: {
-      alias: {
-        '~': fileURLToPath(new URL('./node_modules', import.meta.url)),
-        '@': fileURLToPath(new URL('./src', import.meta.url)),
-      },
-      extensions: ['.js', '.json', '.mjs', '.ts', '.vue'],
-    },
     build: {
       minify: 'esbuild',
       chunkSizeWarningLimit: 500,
@@ -29,6 +21,14 @@ export default defineConfig(({ mode }) => {
     },
     optimizeDeps: {
       include: [],
+    },
+    plugins: [vue()],
+    resolve: {
+      alias: {
+        '~': fileURLToPath(new URL('./node_modules', import.meta.url)),
+        '@': fileURLToPath(new URL('./src', import.meta.url)),
+      },
+      extensions: ['.js', '.json', '.mjs', '.ts', '.vue'],
     },
   }
 })
