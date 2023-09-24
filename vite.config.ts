@@ -24,10 +24,7 @@ export default defineConfig(({ mode }) => {
       target: 'esnext',
     },
     optimizeDeps: {
-      include: [
-        'vue',
-        'vue-router',
-      ],
+      include: ['vue', 'vue-router'],
     },
     plugins: [
       vue({
@@ -35,18 +32,18 @@ export default defineConfig(({ mode }) => {
         script: {
           defineModel: true,
         },
-      })
+      }),
     ],
     resolve: {
       alias: [
         {
           find: '~/',
-          replacement: `${resolve(__dirname, 'node_modules')}/`
+          replacement: `${resolve(__dirname, 'node_modules')}/`,
         },
         {
           find: '@/',
-          replacement: `${resolve(__dirname, 'src')}/`
-        }
+          replacement: `${resolve(__dirname, 'src')}/`,
+        },
       ],
       extensions: ['.js', '.json', '.mjs', '.ts', '.vue'],
     },
