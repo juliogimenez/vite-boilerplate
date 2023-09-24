@@ -1,8 +1,5 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
-import { ref } from 'vue'
-const hola = ref('')
-console.log(hola.value)
 </script>
 
 <template>
