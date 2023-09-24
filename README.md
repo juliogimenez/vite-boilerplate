@@ -7,15 +7,15 @@ podrás desarrollar aplicaciones web de manera eficiente y efectiva.
 
 ## Tecnologías
 
-| Logo                                                                                                                       | Name            | Link                                                                                 |
-|----------------------------------------------------------------------------------------------------------------------------| --------------- | ------------------------------------------------------------------------------------ |
-| <img height="70" src="https://vitejs.dev/logo.svg" alt="Vite logo">                                                        | Vite            | [https://github.com/vitejs/vite](https://github.com/vitejs/vite)                     |
-| <img height="70" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg" alt="Vue 3 logo">             | Vue 3           | [https://github.com/vuejs/core](https://github.com/vuejs/core)                       |
-| <img height="70" src="https://pinia.vuejs.org/logo.svg" alt="Pinia logo" >                                                 | Pinia           | [https://github.com/vuejs/pinia](https://github.com/vuejs/pinia)                     |
-| <img height="70" src="https://vitest.dev/logo.svg" alt="Vitest logo">                                                      | Vitest          | [https://github.com/vitest-dev/vitest](https://github.com/vitest-dev/vitest)         |
-| <img height="70" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" alt="Typescript logo"> | Typescript      | [https://github.com/microsoft/TypeScript](https://github.com/microsoft/TypeScript)   |
-| <img height="70" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/ESLint_logo.svg" alt="ESLint logo">              | ESLint          | [https://github.com/eslint/eslint](https://github.com/eslint/eslint)                 |
-| <img height="70" src="https://prettier.io/icon.png" alt="Prettier logo">                                                   | Prettier        | [https://github.com/prettier/prettier](https://github.com/prettier/prettier)         |
+| Logo                                                                                                                                             | Name            | Link                                                                                 |
+|--------------------------------------------------------------------------------------------------------------------------------------------------| --------------- | ------------------------------------------------------------------------------------ |
+| <p align="center"><img height="70" src="https://vitejs.dev/logo.svg" alt="Vite logo"></p>                                                        | Vite            | [https://github.com/vitejs/vite](https://github.com/vitejs/vite)                     |
+| <p align="center"><img height="70" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg" alt="Vue 3 logo"></p>             | Vue 3           | [https://github.com/vuejs/core](https://github.com/vuejs/core)                       |
+| <p align="center"><img height="70" src="https://pinia.vuejs.org/logo.svg" alt="Pinia logo" ></p>                                                 | Pinia           | [https://github.com/vuejs/pinia](https://github.com/vuejs/pinia)                     |
+| <p align="center"><img height="70" src="https://vitest.dev/logo.svg" alt="Vitest logo"></p>                                                      | Vitest          | [https://github.com/vitest-dev/vitest](https://github.com/vitest-dev/vitest)         |
+| <p align="center"><img height="70" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" alt="Typescript logo"></p> | Typescript      | [https://github.com/microsoft/TypeScript](https://github.com/microsoft/TypeScript)   |
+| <p align="center"><img height="70" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/ESLint_logo.svg" alt="ESLint logo"></p>              | ESLint          | [https://github.com/eslint/eslint](https://github.com/eslint/eslint)                 |
+| <p align="center"><img height="70" src="https://prettier.io/icon.png" alt="Prettier logo"></p>                                                   | Prettier        | [https://github.com/prettier/prettier](https://github.com/prettier/prettier)         |
 
 | Script    | Description                                    |
 |-----------|------------------------------------------------|
