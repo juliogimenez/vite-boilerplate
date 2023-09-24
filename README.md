@@ -17,12 +17,12 @@ podrás desarrollar aplicaciones web de manera eficiente y efectiva.
 | <img height="70" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/ESLint_logo.svg" alt="ESLint logo">              | ESLint          | [https://github.com/eslint/eslint](https://github.com/eslint/eslint)                 |
 | <img height="70" src="https://prettier.io/icon.png" alt="Prettier logo">                                                   | Prettier        | [https://github.com/prettier/prettier](https://github.com/prettier/prettier)         |
 
-| Script    | Description                                      |
-|-----------|--------------------------------------------------|
-| `build`   | Compila los archivos para produccion.            |
-| `test`    | Corre los test unitacion con Vitest.             |
-| `lint`    | Corre ESLint en todos los archivos relevantes.   |
-| `dev`     | Inicia el servidor de desarrollo.                |
+| Script    | Description                                    |
+|-----------|------------------------------------------------|
+| `build`   | Compila los archivos para produccion.          |
+| `test`    | Corre los test unitarios con Vitest.           |
+| `lint`    | Corre ESLint en todos los archivos relevantes. |
+| `dev`     | Inicia el servidor de desarrollo.              |
 
 ## Estructura del Proyecto
 
